@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2em;
+    background: #131b31;
+    min-height: 100vh;
+    color: white;
+}
+
+.center-container {
+    text-align: center;
+}
+
+a {
+    color: #ccc;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+    color: #b0dfff;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Gugi', Arial, sans-serif;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 .125em #fff, 0 0 .25em #fff;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 2em 0 1em;
+    border-bottom: 1px solid white;
+}
+
+.separator {
+    background: #fff;
+    border-radius: .125em;
+    height: .125em;
+    box-shadow: 0 0 .125em #fff, 0 0 .25em #fff;
+}
+
+#subtitle {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 480px;
+    font-style: italic;
+    color: #ccc;
+}
+
+#subtitle em {
+    font-style: normal;
+}
+
+@media (min-width: 768px) {
+    #sign-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5em;
+    }
+}
+
+.sign {
+    padding: .5em;
+    border: 1px dashed #ccc;
+    border-radius: .5em;
+}
+
+.sign-icon {
+    float: left;
+    width: 4em;
+    margin: .75em 1em;
+}
+
+.sign-name {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    margin: .25em 0;
+}
+
+.sign-name.small {
+    font-size: 1.2em;
+}
+
+.sign-date {
+    color: #ccc;
+    font-style: italic;
+    font-size: .8em;
+    margin-bottom: .5em;
+}
+
+.sign-description {
+    text-align: justify;
+}
+
+footer {
+    background-color: #111;
+    color: #ccc;
+    box-sizing: border-box;
+    margin: 2em -2em -2em;
+    padding: 3em 0;
+}
+
+#copyright {
+    font-size: .8em;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ul > li {
+    list-style-type: "\1F539";
+    list-style-position: inside;
+    padding-left: 1rem;
+}
