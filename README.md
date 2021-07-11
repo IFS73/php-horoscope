@@ -1,11 +1,16 @@
 # Horoscope, le retour
 
+## Installation
+
+- Télécharger [Wamp.NET](https://wamp.net/).
+- Dans Wamp.NET, installer le module **Apache** et le module **PHP**.
+
 ## Travail à réaliser
 
 ### 1. Activer PHP
 
 - Renommer le fichier **index.html** en **index.php**.
-- Créer un site dans Wamp.net afin de pouvoir accéder à la page.
+- Créer un site dans Wamp.NET afin de pouvoir accéder à la page (sans oublier de spécifier votre version d'Apache et votre version de PHP).
 
 ### 2. Factoriser les liens
 
@@ -18,6 +23,10 @@ Utiliser PHP pour que le code de chaque section de l'horoscope ne soit écrit qu
 ### BONUS: Afficher le signe de l'utilisateur en surbrillance
 
 Trouver un moyen pour que, le nom d'un des douze signes étant contenu dans une variable, le signe correspondant ait un affichage particulier dans la page.
+
+### BONUS 2: Afficher le signe de l'utilisateur passé dans l'URL
+
+Trouver un moyen pour que, le nom d'un des douze signes apparaissant dans l'URL demandée par l'utilisateur, le signe correspondant ait une affichage particulier dans la page.
 
 ## Textes
 
